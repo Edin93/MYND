@@ -4,7 +4,7 @@ import router from "./routes";
 // Init express
 const app = express();
 
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 5000;
 
 // Routes
 app.use(router);
